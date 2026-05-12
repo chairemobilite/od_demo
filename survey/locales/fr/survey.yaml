@@ -1,0 +1,176 @@
+homepage:
+    AgreementText: >-
+        Je confirme avoir lu ce qui précède et consens à la collecte, au
+        traitement et à l’utilisation des renseignements personnels transmis
+        lors de l’Enquête.
+    ErrorNotAgreed: >-
+        Vous devez accepter les conditions d'utilisation pour débuter le
+        questionnaire.
+    introduction: >-
+        <p class="left">Cette <span class="_strong">enquête
+        Origine-Destination</span> est une enquête de démonstration conçue pour
+        servir de base au développement et aux tests de parcours, de contenu et
+        d'interfaces de questionnaires.</p><p class="left">Vous pouvez l'utiliser
+        pour explorer l'expérience participant, valider des changements de
+        configuration et prototyper de nouveaux comportements de questionnaire
+        dans un contexte réaliste.</p><br/><details style="margin-bottom:
+        1rem"><summary class="left _strong" style="cursor:
+        pointer;">À propos de cette démonstration</summary><ul><li>Cette
+        instance est fournie à des fins de développement, d'intégration et de
+        démonstration.</li><li>Le questionnaire, les libellés et les
+        renseignements collectés sont du contenu d'exemple utilisé pour appuyer
+        la conception des enquêtes et le développement de l'application.</li><li>Vous
+        pouvez utiliser cette démonstration pour tester la navigation, la
+        configuration du ménage, la saisie des déplacements, les règles de
+        validation et les autres fonctionnalités du questionnaire.</li></ul></details>
+    introductionParagraphTwo: >-
+        <p class="left">Cette démonstration peut servir de point de départ à de
+        nouvelles enquêtes Origine-Destination et à des travaux de développement
+        connexes.</p><br/><p class="left">Adaptez le contenu, la configuration
+        et l'image de marque selon les besoins de votre projet, puis utilisez le
+        parcours du questionnaire pour valider l'expérience participant de bout
+        en bout.</p><p class="center _oblique"
+        style="margin: 2rem 0;">Questionnaire de démonstration pour le
+        développement et les tests</p>
+    start: Débuter
+footer: >-
+    <div style="display: flex;justify-content: center;">
+        <div style="font-size:
+        80%;max-width: 700px;margin: 15px;">
+            <p><a href="/dist/documents/od_nationale_2025_consent_mtmd_poly_fr.pdf" target="_blank">Information de
+                    consentement</a>&nbsp;| <a href="mailto:mobilite@polymtl.ca?subject=Questionnaire%20de%20démonstration"
+        target="_blank">Nous joindre par courriel</a></p>
+        </div>
+    </div>
+auth:
+    EmailSubLabel: >-
+        <br /><span class="_pale _oblique">En cas de déconnexion, vous pourrez
+        indiquer votre courriel de nouveau et recevoir un lien sécurisé pour
+        vous reconnecter à votre entrevue</span>
+    missingUsernameOrEmail: Veuillez indiquer votre courriel
+    authenticationFailed: Votre courriel ou votre mot de passe est introuvable ou invalide
+    pleaseChooseAUsernameOrEnterYourEmail: Pour participer, veuillez entrer votre courriel
+    pleaseChooseAUsernameOrEnterYourEmailAndAPassword: >-
+        Pour vous enregistrer, entrez votre courriel, puis choisissez un mot de
+        passe et confirmez-le.
+    usernameOrEmailAlreadyExists: >-
+        Votre courriel est déjà enregistré, veuillez utiliser votre compte déjà
+        créé.
+    UseAnonymousLogin: Se connecter de façon anonyme
+    WhyLoginInfo: ''
+    PasswordlessHeader: ''
+    AnonymousLoginExplanation: >-
+        Notez que si vous procédez sans courriel, vous ne pourrez revenir dans
+        votre questionnaire si votre session expire ou si vous changez de
+        navigateur.
+    Login: Confirmer
+    AuthMainIntroduction: ''
+visitedPlace:
+    departurePlaceIsRequiredError: Le point de départ est requis.
+    activities:
+        accompanySomeone: Accompagner quelqu'un
+        carElectricChargingStation: Borne de recharge de véhicule électrique
+        carsharingStation: 'Station d''autopartage (ex: Communauto)'
+        dropSomeone: Reconduire quelqu'un
+        fetchSomeone: Aller chercher quelqu'un
+        home: Domicile
+        leisureArtsMusicCulture: Arts, musique ou culture
+        leisureSports: Parc, sports, gym, entraînement (destination fixe)
+        leisureStroll: >-
+            Promenade sans destination fixe (ex: aller courir/jogging, aller
+            promener le chien, etc.)
+        leisureTourism: Vacances, tourisme
+        medical: Santé (clinique, hôpital, physiothérapie, etc.)
+        other: Autre
+        otherParentHome: Domicile de l'autre parent ou tuteur
+        pickClassifiedPurchase: Récupérer un achat fait chez un particulier (petites annonces)
+        restaurant: Restaurant, café, bar
+        schoolNotStudent: Études
+        schoolNotUsual: Études dans un autre lieu
+        schoolUsual: École/Études au lieu principal
+        secondaryHome: Résidence secondaire ou chalet
+        service: Service (coiffeur, réparations, avocat, banque, etc.)
+        shopping: Magasinage (achats, station-service, épicerie, etc.)
+        veterinarian: Vétérinaire
+        visiting: Visite d'ami(s), conjoint ou famille
+        volunteering: Bénévolat
+        workNotUsual: Travail dans un autre lieu
+        workOnTheRoad: Travail sur la route
+        workUsual: Travail au lieu habituel
+        worship: Lieu de culte
+    activityCategories:
+        childcare: Garderie ou CPE
+        dropFetchSomeone: Reconduire ou aller chercher quelqu'un
+        home: Domicile
+        kindergarten: Maternelle
+        leisure: Loisirs (promenade, sports, arts, plein air, tourisme, etc.)
+        other: Autre
+        otherParentHome: Domicile de l'autre parent ou tuteur
+        school: École
+        schoolStudies: École / Études
+        shoppingServiceRestaurant: Magasinage, service ou restauration
+        work: Travail
+    activityDescriptionIsRequiredError: La description est requise.
+    activityIsRequiredError: L'activité est requise
+    addGroupedObject: Ajouter le prochain lieu
+    addVisitedPlace: Ajouter le prochain lieu
+    addVisitedPlaceAfterCovid: Ajouter un nouveau lieu habituel prévu après la levée des restrictions
+    addVisitedPlaceDuringCovid: Ajouter un nouveau lieu habituel pendant la pandémie
+    addVisitedPlacePreCovid: Ajouter un lieu habituel avant la pandémie
+    cancelEditVisitedPlaces: Annuler
+    deleteThisGroupedObject: Supprimer ce lieu
+    deleteVisitedPlace: Supprimer
+    editVisitedPlace: Modifier
+    editVisitedPlaces: Modifier, insérer ou supprimer un lieu
+    insertVisitedPlace: Insérer un lieu ici
+    locationIsNotAccessibleError: >-
+        Le lieu est dans une étendue d'eau ou est inaccessible. Veuillez
+        vérifier la localisation.
+    locationIsNotPreciseError: >-
+        Le positionnement du lieu n'est pas assez précis. Utilisez le zoom +
+        pour vous rapprocher davantage, puis précisez la localisation en
+        déplaçant l'icône.
+    locationIsRequiredError: Le positionnement du lieu est requis.
+    onTheRoadArrivalTypeChoices:
+        home: Domicile
+        other: Autre lieu
+        stayedThereUntilTheNextDay: >-
+            {{nickname}} a complété ses déplacements sur la route après 4:00 du
+            matin le lendemain
+        stayedThereUntilTheNextDay_one: >-
+            J'ai complété mes déplacements sur la route après 4:00 du matin le
+            lendemain
+        usualWorkPlace: Lieu de travail habituel
+    onTheRoadDepartureTypeChoices:
+        home: Domicile
+        other: Autre lieu
+        usualWorkPlace: Lieu de travail habituel
+    refreshGeocodingButton: Chercher le lieu à partir du nom
+    resetVisitedPlaces: Réinitialiser les lieux visités et les déplacements de cette personne
+    saveVisitedPlace: Sauvegarder ce lieu
+forExampleAbbreviation: ex
+orPlus: ou +
+atThisPlace: à cet endroit
+atThisPlace_home: au domicile
+atThisPlace_schoolUsual: au lieu d'études/école
+atThisPlace_workUsual: au travail
+atPlace: à {{placeName}}
+place: '{{placeName}}'
+thisPlace: cet endroit
+thisPlace_home: le domicile
+thisPlace_schoolUsual: le lieu d'études/école
+thisPlace_workUsual: le travail
+theHome: le domicile
+ConfirmDeleteLocation: Confirmez-vous que vous voulez retirer ce lieu?
+DeleteLocation: Supprimer ce lieu
+surveyEnded:
+    thankYouMessage: >-
+        <p class="left"><span class="_strong">Merci pour votre participation</span></p>
+        <p class="left">Nous vous remercions sincèrement d'avoir pris le temps de participer à l'enquête Origine-Destination.</p><br/>
+        <p class="left">Grâce à votre contribution, nous disposons désormais de données essentielles pour mieux comprendre les habitudes de déplacement et soutenir la planification des transports, durables et adaptées aux besoins de la population.</p><br/>
+        <p class="left"><span class="_strong">Clôture de la collecte</span></p>
+        <p class="left">La période de collecte des données est <span class="_strong">officiellement terminée depuis le 16 décembre</span>.</p>
+        <p class="left">La plateforme de participation est désormais fermée et il n'est plus possible de soumettre de nouveaux questionnaires.</p>
+        <p class="left">Les informations recueillies feront l'objet d'analyses approfondies et seront utilisées exclusivement aux fins prévues dans le cadre de cette enquête, dans le respect des règles de confidentialité et de protection des données.</p><br/>
+        <p class="left">Merci de l'intérêt que vous portez à l'enquête sur la mobilité des personnes</p><br/>
+        <p class="left">Pour toute information complémentaire, nous vous invitons à consulter la page dédiée aux enquêtes : <a href="https://www.quebec.ca/transports/recherches-statistiques/planification/enquetes-origine-destination" target="_blank">À propos des enquêtes origine-destination | Gouvernement du Québec</a></p>

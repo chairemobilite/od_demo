@@ -1,0 +1,20 @@
+survey_folder_path: ../../../survey
+excel_file_path: ../../../survey/references/OD_demo.xlsx
+
+# List of scripts to run for generating the survey configuration files. Set to
+# true to enable, false to disable. This is a demo, so dicitonary and list are
+# disabled by default. They can be generated using the command `yarn
+# generateSurvey --questionnaire_list,questionnaire_dictionary` if needed.
+enabled_scripts:
+    generate_excel: false
+    generate_section_configs: false
+    generate_sections: true
+    generate_widgets_configs: true
+    generate_widgets: true
+    generate_conditionals: true
+    generate_choices: true
+    generate_input_range: true
+    generate_labels: true
+    generate_UI_tests: false
+    generate_questionnaire_list: false
+    generate_questionnaire_dictionary: false
