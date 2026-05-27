@@ -90,6 +90,9 @@ personUsualSchoolPlaceGeography_one: >-
     fois localisé, vous pourrez déplacer le point sur la carte pour davantage de précision.<br
     />Vous pouvez également chercher le lieu sur la carte en utilisant le bouton "Chercher
     le lieu").</span>
+household_childSharedCustody: Est-ce que cet enfant est en garde partagée
+household_childSharedCustodyShare: Quel pourcentage du temps est-il avec vous en garde
+    partagée
 household_save: Enregistrer et continuer
 addGroupedObject: Ajouter une personne manquante
 deleteThisGroupedObject: Supprimer cette personne

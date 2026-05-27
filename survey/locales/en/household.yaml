@@ -67,6 +67,9 @@ personUsualSchoolPlaceGeography_one: >-
     _oblique">Navigate, zoom, and click on the map to identify the location. Once
     located, you can move the marker for greater precision.<br />You can also search
     for the place on the map using the "Search location" button.</span>
+household_childSharedCustody: Is this child under shared custody
+household_childSharedCustodyShare: What percentage of time is this child is shared
+    custody with you
 household_save: Save and continue
 addGroupedObject: Add a missing person
 deleteThisGroupedObject: Delete this person

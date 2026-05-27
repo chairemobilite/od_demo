@@ -532,3 +532,17 @@ export const madeLongDistanceTripsConditional: WidgetConditional = (interview) =
         ]
     });
 };
+
+export const sharedCustodyConditional: WidgetConditional = (interview, path) => {
+    const currentPersonId = odSurveyHelpers.getCurrentPersonId({ interview, path }); // Get the current person id
+    return checkConditionals({
+        interview,
+        conditionals: [
+            {
+                path: `household.persons.${currentPersonId}.childInSharedCustody`,
+                comparisonOperator: '===',
+                value: 'yes'
+            }
+        ]
+    });
+};

@@ -23,5 +23,7 @@ export const householdMembersWidgetsNames: SectionConfig['widgets'] = [
     'personUsualWorkPlaceName',
     'personUsualWorkPlaceGeography',
     'personUsualSchoolPlaceName',
-    'personUsualSchoolPlaceGeography'
+    'personUsualSchoolPlaceGeography',
+    'household_childSharedCustody',
+    'household_childSharedCustodyShare'
 ];

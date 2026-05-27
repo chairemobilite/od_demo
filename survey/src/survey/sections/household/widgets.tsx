@@ -242,6 +242,27 @@ export const personUsualSchoolPlaceName: WidgetConfig.InputStringType = {
 
 export const personUsualSchoolPlaceGeography = customWidgets.personUsualSchoolPlaceGeography;
 
+export const household_childSharedCustody: WidgetConfig.InputRadioType = {
+    ...defaultInputBase.inputRadioBase,
+    path: 'childInSharedCustody',
+    twoColumns: false,
+    containsHtml: false,
+    label: (t: TFunction) => t('household:household_childSharedCustody'),
+    choices: choices.yesNo,
+    conditional: conditionals.ifAge15OrLessConditional,
+    validations: validations.requiredValidation
+};
+
+export const household_childSharedCustodyShare: WidgetConfig.InputStringType = {
+    ...defaultInputBase.inputStringBase,
+    path: 'childInSharedCustodyShare',
+    twoColumns: false,
+    containsHtml: false,
+    label: (t: TFunction) => t('household:household_childSharedCustodyShare'),
+    conditional: conditionals.sharedCustodyConditional,
+    validations: validations.requiredValidation
+};
+
 export const household_save: WidgetConfig.ButtonWidgetConfig = {
     ...defaultInputBase.buttonNextBase,
     path: 'household.save',
