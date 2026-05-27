@@ -2,6 +2,7 @@
 # The Evolution Generator is used to automate the creation of consistent, reliable code.
 # Any changes made to this file will be overwritten.
 
+home_testQuestion: Test question
 home_address: <strong>Address</strong>
 home_city: <strong>City</strong> or <strong>municipality</strong>
 home_region: <strong>Province</strong>

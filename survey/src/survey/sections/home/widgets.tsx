@@ -15,6 +15,8 @@ import * as customConditionals from '../../common/customConditionals';
 import * as customWidgets from './customWidgets';
 import * as customHelpPopup from '../../common/customHelpPopup';
 
+// Note: home_testQuestion widget is not active. This widget will not be displayed in the survey.
+
 export const home_address: WidgetConfig.InputStringType = {
     ...defaultInputBase.inputStringBase,
     path: 'home.address',

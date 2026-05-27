@@ -149,3 +149,5 @@ workPlaceBeforeLeaveTypeChoices:
         domicile
     remote: Non, {{nickname}} travaillait à partir du domicile ou à distance
     remote_one: Non, je travaillais à partir du domicile ou à distance
+test:
+    test: Test

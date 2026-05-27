@@ -592,3 +592,10 @@ export const workPlaceBeforeLeaveTypeChoices: ChoiceType[] = [
         }
     }
 ];
+
+export const test: ChoiceType[] = [
+    {
+        value: 'test',
+        label: (t: TFunction) => t('choices:test.test')
+    }
+];

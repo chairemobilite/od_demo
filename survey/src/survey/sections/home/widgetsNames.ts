@@ -5,6 +5,7 @@
 import { SectionConfig } from 'evolution-common/lib/services/questionnaire/types';
 
 export const widgetsNames: SectionConfig['widgets'] = [
+    // 'home_testQuestion',
     'home_address',
     'home_city',
     'home_region',
